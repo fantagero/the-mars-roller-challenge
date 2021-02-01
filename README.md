@@ -19,15 +19,6 @@ java -jar target/mars_roller_challenge-1.0-SNAPSHOT.jar
 ```
 Program will print out data from input and output files and processed result in 'Actual Outputs' section.
 Processed result contains final co-ordinates of the rovers in sequential order.
-In order input data is invalid program will throw appropriate exception:
-- GridPositionBusyException
-- GridPositionOutOfRangeException
-- InputFileReadException
-- IllegalArgumentException
-
-Supported error messages are in the file:
-- src/main/java/com/grubtech/exception/ErrorMessages.java
-
 ```
 Test Inputs:
 5 5
@@ -42,6 +33,14 @@ Actual Outputs:
 1 3 N
 5 1 E
 ```
+In order input data is invalid program will throw appropriate exception:
+- GridPositionBusyException
+- GridPositionOutOfRangeException
+- InputFileReadException
+- IllegalArgumentException
+
+Supported error messages are in the file:
+- src/main/java/com/grubtech/exception/ErrorMessages.java
 
 ### Prerequisites
 
